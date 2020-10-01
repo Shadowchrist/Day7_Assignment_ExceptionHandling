@@ -40,8 +40,6 @@ public class UserRegistrationTest {
 			catch (CustomException ce) 
 			{
 				System.out.println(ce.getMessage());
-				if(ce.type != null)
-					fail();
 			}
 		}
 
@@ -61,8 +59,6 @@ public class UserRegistrationTest {
 			catch (CustomException ce) 
 			{
 				System.out.println(ce.getMessage());
-				if(ce.type != null)
-					fail();
 			}
 		}
 
@@ -82,8 +78,6 @@ public class UserRegistrationTest {
 			catch (CustomException ce) 
 			{
 				System.out.println(ce.getMessage());
-				if(ce.type != null)
-					fail();
 			}
 		}
 		
@@ -103,8 +97,6 @@ public class UserRegistrationTest {
 			catch (CustomException ce) 
 			{
 				System.out.println(ce.getMessage());
-				if(ce.type != null)
-					fail();
 			}
 		}
 		
@@ -124,8 +116,6 @@ public class UserRegistrationTest {
 			catch (CustomException ce) 
 			{
 				System.out.println(ce.getMessage());
-				if(ce.type != null)
-					fail();
 			}
 		}
 }
